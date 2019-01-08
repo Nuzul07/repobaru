@@ -1,24 +1,24 @@
 @extends('layouts.admin')
 @section('title')
-Edit Kamar
+Edit Kost
 @endsection
 @section('content')
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-md-8">
       <div class="card">
-        <div class="card-header bg-danger" style="background-color: #e3f2fd;">Edit Kamar</div>
+        <div class="card-header text-white" style="background-color: #25A9A0;">Edit Kost</div>
         <div class="card-body">
          <form action="{{url('admin/kamar/update')}}" method="POST" enctype="multipart/form-data">
           <div class="form-group">
-            <label for="formGroupExampleInput">Nomor Kamar</label>
+            <label for="formGroupExampleInput">Nomor Kost</label>
             <input type="number" class="form-control" name="nomorkamar" id="formGroupExampleInput" 
-            placeholder="Nomor Kamar" value="{{$kamar->nomorkamar}}" required>
+            placeholder="Nomor Kost" value="{{$kamar->nomorkamar}}" required>
           </div>
           <div class="form-group">
-            <label for="formGroupExampleInput">Type Kamar</label>
+            <label for="formGroupExampleInput">Type Kost</label>
             <input type="text" class="form-control" name="typekamar" id="formGroupExampleInput" 
-            placeholder="Type Kamar" value="{{$kamar->typekamar}}" required>
+            placeholder="Type Kost" value="{{$kamar->typekamar}}" required>
           </div>
           <div class="form-group">
             <label for="formGroupExampleInput">Jumlah Kamar</label>

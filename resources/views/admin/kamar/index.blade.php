@@ -7,14 +7,14 @@ Kamar Kost Dashboard
   <div class="row justify-content-center">
     <div class="col-md-8">
       <div class="card">
-        <div class="card-header bg-danger" style="background-color: #e3f2fd;">Daftar Kamar</div>
+        <div class="card-header text-white" style="background-color: #25A9A0;">Daftar Kost</div>
         <div class="card-body">
           <table class="table table-bordered">
             <thead>
               <tr>
                 <th scope="col">#</th>
-                <th scope="col">Nomor Kamar</th>
-                <th scope="col">Tipe Kamar</th>
+                <th scope="col">Nomor Kost</th>
+                <th scope="col">Tipe Kost</th>
                 <th scope="col">Jumlah Kamar</th>
                 <th scope="col">Gambar</th>
                 <th colspan="2">Action</th>

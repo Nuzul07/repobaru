@@ -1,0 +1,23 @@
+.navbar-light{
+	background-color:  #25A9A0;
+	text-decoration-color: white; 
+}
+
+.navbar-light .navbar-brand{
+	color: #ffffff;
+}
+
+.navbar-light .nav-link {
+	color: #ffffff;
+}
+
+.navbar-light .navbar-toggler{
+	color: #ffffff; 
+}
+
+.html {
+	background: url("/gambar/Background-Interior-Rumah-Mewah.jpg");
+	background-position: center;
+ 	background-repeat: no-repeat;
+  	height: 700px;
+}

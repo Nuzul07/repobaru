@@ -20,21 +20,18 @@
     <!-- Styles -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/baru.css') }}" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{ asset('fontawesome-free-5.5.0-web/css/all.css') }}">
     <style>
         body {
-            background-color: #0EB5ED;
+            background-color: 
         }
     </style>
 </head>
 <body>
-    <style>
-    	{
-    		background-image: url("https://www.telegraph.co.uk/content/dam/Travel/2018/January/sydney-best-GETTY.jpg?imwidth=450");
-    	}
-    </style>
+    <div class="html">
     <div id="app">
-        <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <nav class="navbar navbar-light">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     Kamar Kost
@@ -45,9 +42,6 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto">
-
-                    </ul>
 
                     <!-- Right Side Of Navbar -->   
                     <ul class="navbar-nav ml-auto">
@@ -76,11 +70,11 @@
                     </ul>
                 </div>
             </div>
-        </nav>
-
-        <main class="py-4">
-            @yield('content')
-        </main>
+        </nav>  
     </div>
+    <main class="py-4">
+    @yield('content')
+    </main>
+</div>
 </body>
 </html>

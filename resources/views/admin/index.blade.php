@@ -7,7 +7,7 @@ Admin Dasboard
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card" style="margin-left: 100px;margin-right: 100px;margin-right: 100px;margin-top: 100px">
-                <div class="card-header text-white text-center" style="background-color: #328BD5;">Admin Dashboard</div>
+                <div class="card-header text-white text-center" style="background-color: #25A9A0;">Admin Dashboard</div>
 
                 <div class="card-body">
                     <center>
